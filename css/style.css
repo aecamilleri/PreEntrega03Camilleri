@@ -372,6 +372,16 @@ h2#banner{
 .nav-link {
     color: #37474f !important;
 }
+
+.btn.btn-link.text-start.active{
+    background: #000 !important;
+    color:#fff !important;
+    text-decoration: none!important;
+}
+.btn.btn-link.text-start{
+    text-decoration: none!important;
+}
+
 /*******Mobile*********************/
 @media only screen and (max-width: 576px) {
     .carousel-caption{
