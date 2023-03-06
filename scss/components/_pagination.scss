@@ -1,0 +1,26 @@
+/*******Style for foot of pages with pagination**********/
+.divisor{
+    background-color: grey;
+    height: 2px;
+}
+.pagination {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+.pagination a.active {
+    background-color: #3ba9e0;
+    color: white;
+    border: 1px solid #3ba9e0;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}

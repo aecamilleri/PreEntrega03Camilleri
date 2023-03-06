@@ -1,0 +1,32 @@
+/*******Style Cards*********************/
+.card {
+    width: 30%;
+    background: transparent;
+    padding: 0em 1.5em 1.5em 1.5em;
+    border: none;
+}
+.card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+.card-image img{
+    width: 100%;
+    object-fit: cover; /* Recorta la imagen sin deformarla */
+    object-position: center;
+    border-radius: 6px 6px 0 0;
+}
+.card-image:hover {
+    transform: scale(0.98);
+}
+.heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+}
+.heading:hover {
+    cursor: pointer;
+}
+.price .btn{
+    border-radius: 50%!important;
+    }

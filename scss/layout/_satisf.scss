@@ -1,0 +1,53 @@
+.br-policy {
+    overflow: hidden;
+}
+.br-policy .br-policy__item_engo {
+    width: 25%!important;
+    float: left;
+    text-align: center;
+}
+.br-car:before {
+    display: block;
+    content: "";
+    background: url(../img/delivery.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(1);
+    height: 64px;
+    width: 64px;
+}
+.br-money:before {
+    display: block;
+    content: "";
+    background: url(../img/money.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(1);
+    height: 64px;
+    width: 64px;
+}
+.br-clock:before {
+    display: block;
+    content: "";
+    background: url(../img/clock.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(1);
+    height: 64px;
+    width: 64px;
+}
+.br-satisf:before {
+    display: block;
+    content: "";
+    background: url(../img/like.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(1);
+    height: 64px;
+    width: 64px;
+}
+.br-policy__icon {
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+}
