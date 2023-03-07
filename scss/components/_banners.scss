@@ -1,10 +1,11 @@
+/***Titles***/
 #banner h1{
     font-family: $FontTitle;
     text-align: left;
     text-transform: uppercase;
     line-height: unset;
     margin-bottom: 0px;
-    color: $DarkBlack;
+    color: map-get($colorpallete, DarkBlack);
     font-size: xx-large;
 }
 h2#banner{
@@ -13,6 +14,6 @@ h2#banner{
     text-transform: uppercase;
     line-height: unset;
     margin-bottom: 0px;
-    color: $DarkBlack;
+    color: map-get($colorpallete, DarkBlack);
     font-size: xx-large;
 }

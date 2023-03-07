@@ -1,3 +1,4 @@
+/***aside***/
 .br-card {
     text-align: center;
     padding: 15px 15px 0;
@@ -9,12 +10,12 @@
     h4 {
         text-align: center;
         font-size: xx-large;
-        color: $PrimaryBlue;
+        color: map-get($colorpallete, PrimaryBlue);
         text-shadow: $BorderTitle
     }
     button {
         color: #fff;
-        background-color: $PrimaryBlue;
+        background-color: map-get($colorpallete, PrimaryBlue);
         border: solid 2px #fff;
         min-width: 130px;
         letter-spacing: 1px;

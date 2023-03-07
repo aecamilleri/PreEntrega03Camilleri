@@ -1,4 +1,5 @@
 /* BASE */
+/***reset***/
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +9,18 @@
 body {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3cpath d='M282.98 602.64C407.51 598.37 509.16 403.81 739.88 403.49 970.6 403.17 968.33 473.49 1196.77 473.49 1425.22 473.49 1538.11 403.69 1653.67 403.49' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M558.91 574.76C687.44 542.6 619.04 208.39 927.05 193.51 1235.05 178.63 1474.52 26.57 1663.32 25.51' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M516.96 587.5C652.88 579.44 723.32 346.03 996.34 329.02 1269.35 312.01 1338.6 69.18 1475.71 60.22' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M554.16 568.27C685.02 564.83 779.61 382.68 1041.15 375.89 1302.69 369.1 1397.46 188.83 1528.14 185.49' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M599.86 669.49C689.51 668.73 674.1 582.12 946.71 578.32 1219.32 574.52 1457.32 346.29 1640.41 343.12' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); }
 
+/***font for titles***/
 @font-face {
   font-family: pickleweasel;
   src: url("../../fonts/pickleweasel.ttf"); }
 
+@font-face {
+  font-family: Bebas Neue;
+  src: url("../../fonts/BebasNeue-Regular.ttf"); }
+
+/* MAP OF COLORS*/
 /* COMPONENTS */
+/***aside***/
 .br-card {
   text-align: center;
   padding: 15px 15px 0;
@@ -24,11 +32,11 @@ body {
   .br-card h4 {
     text-align: center;
     font-size: xx-large;
-    color: #327bc7;
+    color: #005B96;
     text-shadow: white 2px 0px 0px, white 1.75517px 0.95885px 0px, white 1.0806px 1.68294px 0px, white 0.14147px 1.99499px 0px, white -0.83229px 1.81859px 0px, white -1.60229px 1.19694px 0px, white -1.97998px 0.28224px 0px, white -1.87291px -0.70157px 0px, white -1.30729px -1.5136px 0px, white -0.42159px -1.95506px 0px, white 0.56732px -1.91785px 0px, white 1.41734px -1.41108px 0px, white 1.92034px -0.55883px 0px; }
   .br-card button {
     color: #fff;
-    background-color: #327bc7;
+    background-color: #005B96;
     border: solid 2px #fff;
     min-width: 130px;
     letter-spacing: 1px;
@@ -42,6 +50,7 @@ body {
     font-size: 14px;
     line-height: 1.71429; }
 
+/***Titles***/
 #banner h1 {
   font-family: pickleweasel;
   text-align: left;
@@ -60,7 +69,7 @@ h2#banner {
   color: #000000;
   font-size: xx-large; }
 
-/*******Style Cards*********************/
+/***Cards***/
 .card {
   width: 30%;
   background: transparent;
@@ -79,7 +88,9 @@ h2#banner {
         transform: scale(0.98); }
 
 .price .btn {
-  border-radius: 50% !important; }
+  border-radius: 50% !important;
+  background-color: #005B96 !important;
+  border: none; }
   .price .btn .heading {
     font-weight: 600;
     color: #585757;
@@ -87,7 +98,7 @@ h2#banner {
     .price .btn .heading:hover {
       cursor: pointer; }
 
-/*******Carousel Style*********************/
+/***Carousel Style***/
 .carousel-caption {
   text-align: left;
   bottom: 15rem !important; }
@@ -96,44 +107,44 @@ h2#banner {
     font-size: -webkit-xxx-large;
     text-shadow: white 2px 0px 0px, white 1.75517px 0.95885px 0px, white 1.0806px 1.68294px 0px, white 0.14147px 1.99499px 0px, white -0.83229px 1.81859px 0px, white -1.60229px 1.19694px 0px, white -1.97998px 0.28224px 0px, white -1.87291px -0.70157px 0px, white -1.30729px -1.5136px 0px, white -0.42159px -1.95506px 0px, white 0.56732px -1.91785px 0px, white 1.41734px -1.41108px 0px, white 1.92034px -0.55883px 0px; }
   .carousel-caption p#slide-01, .carousel-caption p#slide-02, .carousel-caption p#slide-03 {
-    color: #327bc7;
+    color: #005B96;
     font-size: xx-large;
     text-shadow: white 2px 0px 0px, white 1.75517px 0.95885px 0px, white 1.0806px 1.68294px 0px, white 0.14147px 1.99499px 0px, white -0.83229px 1.81859px 0px, white -1.60229px 1.19694px 0px, white -1.97998px 0.28224px 0px, white -1.87291px -0.70157px 0px, white -1.30729px -1.5136px 0px, white -0.42159px -1.95506px 0px, white 0.56732px -1.91785px 0px, white 1.41734px -1.41108px 0px, white 1.92034px -0.55883px 0px; }
   .carousel-caption a.slide01, .carousel-caption a.slide02, .carousel-caption a.slide03 {
-    background-color: #327bc7 !important;
+    background-color: #005B96 !important;
     border: 2px solid #fff !important;
     color: #fff !important; }
 
+/***Alignment form feed***/
 .form-floating > label {
-  /* Alignment form feed */
   padding: 1rem 1.75rem !important; }
 
+/***nav-pills***/
 .nav-pills .nav-link {
   /* border stand by button */
-  color: #37474f !important;
+  color: #5D5D5D !important;
   border: 1px solid !important;
   margin: 0 10px !important;
   min-width: 50px !important; }
   .nav-pills .nav-link.active {
     /* style nave-pills page */
     color: #fff !important;
-    background-color: #37474f !important; }
+    background-color: #5D5D5D !important; }
 
 .nav-pills .show > .nav-link {
   /* style nave-pills page */
   color: #fff !important;
-  background-color: #37474f !important; }
+  background-color: #5D5D5D !important; }
 
 .btn.btn-link.text-start {
   /* style catalogo page */
   text-decoration: none !important; }
   .btn.btn-link.text-start.active {
-    /* style catalogo page */
-    background: #37474f !important;
+    background: #5D5D5D !important;
     color: #fff !important;
     text-decoration: none !important; }
 
-/*******Style for foot of pages with pagination**********/
+/***pagination***/
 .divisor {
   background-color: grey;
   height: 2px; }
@@ -156,9 +167,8 @@ h2#banner {
       color: white;
       border: 1px solid #3ba9e0; }
 
-/* LAYOUTS */
-.bg-secundary-color {
-  background-color: #327bc7; }
+.bg-primary-color {
+  background-color: #005B96; }
 
 .br-policy {
   overflow: hidden; }
@@ -173,7 +183,7 @@ h2#banner {
       .br-policy .br-policy__item_engo .br-policy__icon .br-car:before {
         display: block;
         content: "";
-        background: url(../img/delivery.png) no-repeat;
+        background: url(../img/delivery.webp) no-repeat;
         background-position: center;
         background-size: cover;
         filter: invert(1);
@@ -182,7 +192,7 @@ h2#banner {
       .br-policy .br-policy__item_engo .br-policy__icon .br-money:before {
         display: block;
         content: "";
-        background: url(../img/money.png) no-repeat;
+        background: url(../img/money.webp) no-repeat;
         background-position: center;
         background-size: cover;
         filter: invert(1);
@@ -191,7 +201,7 @@ h2#banner {
       .br-policy .br-policy__item_engo .br-policy__icon .br-clock:before {
         display: block;
         content: "";
-        background: url(../img/clock.png) no-repeat;
+        background: url(../img/clock.webp) no-repeat;
         background-position: center;
         background-size: cover;
         filter: invert(1);
@@ -200,7 +210,7 @@ h2#banner {
       .br-policy .br-policy__item_engo .br-policy__icon .br-satisf:before {
         display: block;
         content: "";
-        background: url(../img/like.png) no-repeat;
+        background: url(../img/like.webp) no-repeat;
         background-position: center;
         background-size: cover;
         filter: invert(1);
@@ -208,35 +218,45 @@ h2#banner {
         width: 64px; }
 
 /* UTILITIES */
-/*******background Images*********************/
+/*Creamos el bucle para usar los valores del mapa*/
+.btn--twitter {
+  background-color: #55acee; }
+
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--send-mail {
+  background-color: #C25E30; }
+
+/***background Images***/
 .pic01 {
-  background: url("../img/Shirt_Women_Home.jpg");
+  background: url("../img/Shirt_Women_Home.webp");
   background-size: cover;
   background-repeat: no-repeat; }
 
 .pic02 {
-  background: url("../img/Shirt_Men_Home.jpg");
+  background: url("../img/Shirt_Men_Home.webp");
   background-size: cover;
   background-repeat: no-repeat; }
 
 .pic03 {
-  background: url("../img/Shirt_Rock_Home.jpg");
+  background: url("../img/Shirt_Rock_Home.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: top;
   background-position-x: center; }
 
 .pic04 {
-  background: url("../img/Shirt_Retro_Home.jpg");
+  background: url("../img/Shirt_Retro_Home.webp");
   background-size: cover;
   background-repeat: no-repeat; }
 
 .pic05 {
-  background: url("../img/Shirt_Series_Home.jpg");
+  background: url("../img/Shirt_Series_Home.webp");
   background-size: cover;
   background-repeat: no-repeat; }
 
-/*******Mobile*********************/
+/***Mobile***/
 @media only screen and (max-width: 576px) {
   .carousel-caption {
     text-align: center;
@@ -245,27 +265,34 @@ h2#banner {
     width: 48% !important; }
   .thumbInfo h4 {
     margin-bottom: 5em; }
-  .br-policy .br-policy__item_engo {
-    width: 100% !important;
-    margin: 30px 0px; }
-  .br-car:before, .br-money:before, .br-clock:before, .br-satisf:before {
-    height: 96px;
-    width: 96px;
-    margin-bottom: 20px; }
-  .br-policy__text h5 {
-    font-size: x-large; }
-  .thumbInfo img {
-    width: 25%; }
+  .br-policy {
+    overflow: hidden; }
+    .br-policy .br-policy__item_engo {
+      width: 100% !important;
+      margin: 30px 0px; }
+      .br-policy .br-policy__item_engo .br-policy__icon {
+        display: flex;
+        padding-right: 20px;
+        justify-content: center; }
+        .br-policy .br-policy__item_engo .br-policy__icon .br-car:before, .br-policy .br-policy__item_engo .br-policy__icon .br-money:before, .br-policy .br-policy__item_engo .br-policy__icon .br-clock:before, .br-policy .br-policy__item_engo .br-policy__icon .br-satisf:before {
+          height: 96px;
+          width: 96px;
+          margin-bottom: 20px; }
+      .br-policy .br-policy__item_engo .br-policy__text h5 {
+        font-size: x-large; }
   .center_mobile {
     text-align: center; }
   .navbar-nav-scroll {
+    /* nav height on mobile view */
     max-height: 35vh; }
-  .nav-pills .nav-link {
-    margin: 0 1px !important;
-    min-width: 50px !important; }
+  /* 
+    .nav-pills .nav-link {
+        margin: 0 1px!important;
+        min-width: 50px!important;
+    }*/
   #promotions_pills .nav-pills .nav-link {
     margin: 2px !important;
-    min-width: 120px !important; }
+    min-width: 160px !important; }
   #promotions_pills .nav-link {
     font-size: small; }
   #promotions_Cards .card {

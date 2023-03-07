@@ -1,4 +1,4 @@
-/*******Style Cards*********************/
+/***Cards***/
 .card {
     width: 30%;
     background: transparent;
@@ -20,6 +20,8 @@
 }
 .price .btn{
     border-radius: 50%!important;
+    background-color: map-get($colorpallete, PrimaryBlue) !important;
+    border: none;
     .heading {
         font-weight: 600;
         color: rgb(88, 87, 87);
@@ -27,5 +29,6 @@
             &:hover {
                 cursor: pointer;
             }
+            
     }
 }

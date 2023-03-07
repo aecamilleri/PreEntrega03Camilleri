@@ -9,15 +9,12 @@
 @import "./components/cards";
 @import "./components/carousel";
 @import "./components/forms";
-@import "./components/_nav-pills";
+@import "./components/nav-pills";
 @import "./components/pagination";
-
-/* LAYOUTS */
-@import "./layout/footer";
-@import "./layout/header";
-@import "./layout/satisf";
+@import "./components/satisf";
 
 /* UTILITIES */
+@import "./utilities/conditionals";
 @import "./utilities/imgbg";
 @import "./utilities/queries";
 
