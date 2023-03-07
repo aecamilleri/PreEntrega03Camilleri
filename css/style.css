@@ -1,5 +1,6 @@
 /* BASE */
 /***reset***/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,10 +15,10 @@ body {
   font-family: pickleweasel;
   src: url("../../fonts/pickleweasel.ttf"); }
 
-@font-face {
-  font-family: Bebas Neue;
-  src: url("../../fonts/BebasNeue-Regular.ttf"); }
-
+/* @font-face { 
+    font-family: Bebas Neue; 
+    src: url("../../fonts/BebasNeue-Regular.ttf"); 
+} */
 /* MAP OF COLORS*/
 /* COMPONENTS */
 /***aside***/
